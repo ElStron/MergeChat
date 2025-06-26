@@ -1,0 +1,10 @@
+[package]
+name = "MergeChat"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+iced = "0.13.1"
+#wry = "0.36"
+image = { version = "0.24.1", features = ["ico"] }
+tokio = { version = "1", features = ["full"] }
