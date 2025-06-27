@@ -13,10 +13,6 @@ pub enum SettingsMessage {
 }
 
 impl Settings {
-    pub fn new() -> Settings {
-        Settings
-    }
-
     pub fn view<'a>(window_id: window::Id) -> Element<'a, Message> {
         // Cambia el tipo de retorno a Element<'a, Message>
         iced::widget::column![
@@ -39,4 +35,3 @@ impl Settings {
         }
     }
 }
-
